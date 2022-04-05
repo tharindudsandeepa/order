@@ -1,0 +1,101 @@
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-size:1540px;
+    background-repeat: no-repeat;
+
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: auto;
+    background-color:hsl(225, 100%, 94%);
+}
+.card{
+    background-color: hsl(225, 100%, 98%);
+    width:420px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding-bottom:20px;
+}
+.hero{
+    width:420px;
+    border-radius: 15px 15px 0px 0px;
+}
+.header{
+    margin: 20px auto;
+    text-align: center;
+    font-family:'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+.desc{
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+    width:350px;
+    margin:20px auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.annual{
+    background-color: hsl(225, 100%, 96%);
+    width:350px;
+    border-radius: 10px;
+    height: 80px;
+    margin:10px auto;
+}
+.music{
+    position: relative;
+    left:20px;
+    top:20px;
+}
+.ann-desc{
+    position: relative;
+    left:90px;
+    bottom: 60px;
+    line-height: 0.3;
+    margin-top:30px;
+}
+.para{
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+.change{
+    position: relative;
+    left:150px;
+    bottom:33px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.change:hover{
+    color:hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+h4{
+    font-weight: 900;
+}
+button{
+    width:350px;
+    margin:30px 35px;
+    height:45px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    font-weight: 700;
+    font-size:17px;
+    margin-bottom:20px;
+}
+button:hover{
+    background-color: hsl(245, 75%, 61%);
+    cursor: pointer;
+}
+.cancel{
+    position: relative;
+    left:165px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    color:hsl(224, 23%, 55%);
+}
+.cancel:hover{
+    color:hsl(224, 23%, 10%);
+    cursor: pointer;
+}
